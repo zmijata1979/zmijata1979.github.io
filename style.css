@@ -11215,8 +11215,8 @@ textarea.form-control-lg {
   }
 
   .body {
-    background-position: right -5cm top 3cm;
-    background-size: 600px;
+    background-position: left 0cm top 0cm;
+    background-size: 200px;
   }
 
   @keyframes text {
@@ -11228,7 +11228,7 @@ textarea.form-control-lg {
     }
   }
   .main {
-    width: 50%;
+    width: 100%;
     margin-left: 0;
   }
 }
