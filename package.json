@@ -1,0 +1,23 @@
+{
+  "name": "zmijata1979.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmijata1979/zmijata1979.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmijata1979/zmijata1979.github.io/issues"
+  },
+  "homepage": "https://github.com/zmijata1979/zmijata1979.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.45.0"
+  }
+}

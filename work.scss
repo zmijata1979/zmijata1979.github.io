@@ -1,0 +1,146 @@
+.work-nav {
+  color: pink;
+  text-shadow: 1px 1px white;
+}
+.work-nav:hover {
+  color: aqua;
+  transform: rotate(-20deg);
+}
+.heading {
+    color: green;
+    transform: translateX(89%);
+    animation: heading 15s linear alternate infinite;  
+ }
+ @keyframes heading {
+     0%{
+         transform: translateX(0%);
+     }
+
+ }
+ .heading2 {
+     color: red;
+     text-shadow: 2px 2px green ;
+     padding-top: 10%;
+     animation: heading2 10s linear infinite reverse;
+ }
+ 
+ @keyframes heading2 {
+     0% {
+         transform: translate(-25%, 0%);
+     }
+    50% {
+        transform: translate(40%, 50%);
+    }
+     100% {
+         transform: translateX(100%);
+     }
+ }
+ .heading3 {
+     display: flex;
+     margin-top: 15%;
+     justify-content: center;
+     animation: heading3 10s infinite;
+     
+ }
+.letter {
+    font-size: 3rem;
+    color: blue;
+}
+ .letters {
+    color: grey;
+    font-size: 3rem;
+    font-family: sans-serif;
+    animation: lighting 2s infinite;
+  }
+.letter-1 {
+    padding-left: 10px;
+}
+.letter-1 {
+    animation-delay: 0.125s;
+  }
+  .letter-2 {
+    animation-delay: 0.25s;
+  }
+  .letter-3 {
+    animation-delay: 0.375s;
+  }
+  .letter-4 {
+    animation-delay: 0.5s;
+  }
+  .letter-5 {
+    animation-delay: 0.625s;
+  }
+  .letter-6 {
+    animation-delay: 0.75s;
+  }
+  .letter-7 {
+    animation-delay: 0.875s;
+  }
+  .letter-8 {
+    animation-delay: 1s;
+  }
+  
+  @keyframes lighting {
+    0% {
+      text-shadow: none;
+      color: grey;
+    }
+    90% {
+      text-shadow: none;
+      color: grey;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  .work-footer {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   text-shadow: 1px 1px orange;
+  }
+  @media (max-width: 580px) {
+  .nav {
+   justify-content: center !important;
+  }
+  .heading {
+    transform: translateX(70%) !important;
+  }
+  @keyframes heading2 {
+    0% {
+        transform: translate(100%, 0%) !important;
+    }
+   50% {
+       transform: translate(20%, 50%) !important;
+   }
+    100% {
+        transform: translateX(-100%) !important;
+    }
+}
+.heading3 {
+  margin-top: 30%;
+}
+  
+ }
+ @media (max-width: 1030px) {
+   .heading {
+    transform: translateX(80%);
+   }
+  .nav {
+    justify-content: center !important;
+   }
+   @keyframes heading2 {
+    0% {
+        transform: translate(-45%, 0%);
+    }
+   50% {
+       transform: translate(40%, 50%);
+   }
+    100% {
+        transform: translateX(100%);
+    }
+}
+.heading3 {
+  margin-top: 30%;
+}
+ }
