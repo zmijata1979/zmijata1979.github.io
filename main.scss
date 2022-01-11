@@ -19,9 +19,9 @@ body {
   background-color: black;
 }
 .image {
-  background-image: url(./thumbnail_20211219_162032__1_-removebg-preview.png);
+  background-image: url(./images/thumbnail_20211219_162032__2_-removebg-preview.png);
   background-repeat: no-repeat;
-  background-position: right 2cm top 2cm;
+  background-position: right 2cm top 3cm;
   background-size: 600px;
 }
 
@@ -60,7 +60,7 @@ body {
   }
 }
 .main-footer { 
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   text-shadow: 1px 1px orange;
@@ -68,7 +68,8 @@ body {
 }
 @media (max-width: 580px) {
   .image {
-    background-image: none;
+    background-position: left -1cm top 0cm;
+    background-size: 200px;
   }
   .nav-text {
     font-size: 5rem;
@@ -82,7 +83,7 @@ body {
 }
 @media (min-width: 581px) and (max-width: 1023px) {
   .image {
-    background-position: right -1cm top 2cm;
+    background-position: right -3cm top 2cm !important;
   }
   .nav-text {
     font-size: 8rem;
@@ -91,7 +92,7 @@ body {
 }
 @media (min-width: 1024px) and (max-width: 1439px) {
   .image {
-    background-position: right -1cm top 2cm;
+    background-position: right 0cm top 3cm !important;
   }
   .nav-text {
     margin-left: 10px;
