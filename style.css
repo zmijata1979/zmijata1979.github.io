@@ -11120,7 +11120,7 @@ textarea.form-control-lg {
 }
 .body {
   background-color: rgba(128, 128, 128, 0.507);
-  background-image: url(./thumbnail_20211219_162032__2_-removebg-preview.png);
+  background-image: url(./images/thumbnail_20211219_162032__2_-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: right 2cm top 4cm;
   background-size: 600px;
@@ -11324,25 +11324,54 @@ textarea.form-control-lg {
   transform: rotate(-20deg);
 }
 
-.heading {
-  color: green;
-  transform: translateX(89%);
-  animation: heading 15s linear alternate infinite;
+.work-page {
+  background-image: url(./images/coding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-@keyframes heading {
+.work-images {
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 5%;
+}
+
+.work-img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+  height: 150px;
+}
+
+.work-img:hover {
+  border-radius: 0%;
+}
+
+.heading2 {
+  display: block;
+  padding-top: 5%;
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-size: 4rem;
+  transform: translateX(89%);
+  animation: heading2 15s linear alternate infinite;
+}
+
+@keyframes heading2 {
   0% {
     transform: translateX(0%);
   }
 }
-.heading2 {
+.heading {
   color: red;
   text-shadow: 2px 2px green;
-  padding-top: 10%;
-  animation: heading2 10s linear infinite reverse;
+  animation: heading 10s linear infinite reverse;
 }
 
-@keyframes heading2 {
+@keyframes heading {
   0% {
     transform: translate(-25%, 0%);
   }
@@ -11422,7 +11451,7 @@ textarea.form-control-lg {
   }
 }
 .work-footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   text-shadow: 1px 1px orange;
@@ -11433,19 +11462,19 @@ textarea.form-control-lg {
     justify-content: center !important;
   }
 
-  .heading {
-    transform: translateX(70%) !important;
+  .heading2 {
+    transform: translateX(67%) !important;
   }
 
-  @keyframes heading2 {
+  @keyframes heading {
     0% {
       transform: translate(100%, 0%) !important;
     }
     50% {
-      transform: translate(20%, 50%) !important;
+      transform: translate(50%) !important;
     }
     100% {
-      transform: translateX(-100%) !important;
+      transform: translateX(-100%, 0%) !important;
     }
   }
   .heading3 {
@@ -11453,7 +11482,7 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 1030px) {
-  .heading {
+  .heading2 {
     transform: translateX(80%);
   }
 
@@ -11461,7 +11490,7 @@ textarea.form-control-lg {
     justify-content: center !important;
   }
 
-  @keyframes heading2 {
+  @keyframes heading {
     0% {
       transform: translate(-45%, 0%);
     }
@@ -11556,7 +11585,7 @@ body {
 }
 
 .image {
-  background-image: url(./thumbnail_20211219_162032__2_-removebg-preview.png);
+  background-image: url(./images/thumbnail_20211219_162032__2_-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: right 2cm top 3cm;
   background-size: 600px;
@@ -11598,7 +11627,7 @@ body {
 }
 
 .main-footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   text-shadow: 1px 1px orange;

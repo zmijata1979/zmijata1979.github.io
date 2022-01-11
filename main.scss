@@ -19,7 +19,7 @@ body {
   background-color: black;
 }
 .image {
-  background-image: url(./thumbnail_20211219_162032__2_-removebg-preview.png);
+  background-image: url(./images/thumbnail_20211219_162032__2_-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: right 2cm top 3cm;
   background-size: 600px;
@@ -60,7 +60,7 @@ body {
   }
 }
 .main-footer { 
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   text-shadow: 1px 1px orange;
